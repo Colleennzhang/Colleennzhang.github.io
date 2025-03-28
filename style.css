@@ -1,29 +1,63 @@
 body {
-            font-size: 12px;
-        }
-        h2 {
-            color: rgb(0, 232, 15);
-            font-size: 1.5em;
-        }  
-        
-        #rabbits-info-heading {
-            background-color: purple;
-        }
-        
-        p {
-            color: rgb(191, 0, 255);
-            font-family: "Helvetica", sans-serif;
-        }
-        
-        #rabbits-info {
-            color: purple;
-            font-weight: bold;
-        }
-        
-        .song-lyrics {
-            background-color: yellow;
-            font-family: fantasy;
-            font-size: 13px;
-            font-style: italic;
-        }
-        
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFE5EC;
+    color: #5A3E36;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #FFC8DD;
+    padding: 20px;
+    border-bottom: 5px solid #FFAFCC;
+}
+
+h1 {
+    color: #5A3E36;
+    font-weight: 700;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5A3E36;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #FFAFCC;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #FFD6E0;
+}
+
+/* Sections */
+section {
+    background-color: #FFDEE9;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #FFC8DD;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+}
