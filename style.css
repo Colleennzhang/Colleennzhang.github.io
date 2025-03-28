@@ -56,7 +56,10 @@
 
         /* Table */
         table {
-            margin: 20px auto;
+           table {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
             border-collapse: collapse;
             width: 80%;
             background-color: #FFF;
