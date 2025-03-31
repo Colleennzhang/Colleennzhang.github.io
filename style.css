@@ -93,36 +93,3 @@
     overflow: hidden;
 }
 
-.image-scroller {
-    overflow-x: auto;
-    white-space: nowrap;
-    width: 100%;
-    scrollbar-width: thin;
-    scrollbar-color: #FFAFCC #FFE5EC;
-}
-
-.image-track {
-    display: flex;
-    width: max-content;
-}
-
-.image-track img {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-    margin: 5px;
-}
-
-.image-scroller::-webkit-scrollbar {
-    height: 8px;
-}
-
-.image-scroller::-webkit-scrollbar-track {
-    background: #FFE5EC;
-    border-radius: 10px;
-}
-
-.image-scroller::-webkit-scrollbar-thumb {
-    background: #FFAFCC;
-    border-radius: 10px;
-}
