@@ -76,16 +76,6 @@ main {
     color: #5A3E36;
     font-size: 18px;
 }
-
-/* Alternate Row Colors */
-.merch-table tr:nth-child(even) {
-    background-color: #FAFAFA;
-}
-
-/* Hover Effect */
-.merch-table tr:hover {
-    background-color: #FFE3E3;
-}
 footer {
     background-color: #AEC6CF;
     text-align: center;
