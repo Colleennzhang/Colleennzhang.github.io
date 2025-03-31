@@ -86,21 +86,23 @@
             font-weight: 500;
 
         }
-.gallery {
+ .gallery {
     text-align: center;
     margin: 40px auto;
     width: 90%;
     overflow: hidden;
 }
+
 .fill {
     display: flex;
+    flex-wrap: wrap; 
     justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.fill img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+    gap: 10px; 
 }
 
+.fill img {
+    width: auto; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 8px;
+}
