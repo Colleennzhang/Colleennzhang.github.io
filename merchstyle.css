@@ -52,38 +52,40 @@ main {
 }
 
 .merch-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.merch-item {
+    margin: auto; /* Centers the table */
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 800px;
     background-color: white;
-    padding: 15px;
     border-radius: 15px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Headers & Cells */
+.merch-table th, .merch-table td {
+    padding: 15px;
     text-align: center;
-    width: 250px;
-}
-
-.merch-item img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.merch-item h3 {
-    margin: 10px 0;
+    border: 1px solid #DDD;
     font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styling */
+.merch-table th {
+    background-color: #FFAFCC;
+    color: #5A3E36;
     font-size: 18px;
 }
 
-.merch-item p {
-    font-size: 16px;
-    color: #5A5A5A;
+/* Alternate Row Colors */
+.merch-table tr:nth-child(even) {
+    background-color: #FAFAFA;
 }
 
+/* Hover Effect */
+.merch-table tr:hover {
+    background-color: #FFE3E3;
+}
 footer {
     background-color: #AEC6CF;
     text-align: center;
