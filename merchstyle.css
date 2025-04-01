@@ -62,20 +62,24 @@ main {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Table Headers & Cells */
-.merch-table th, .merch-table td {
-    padding: 15px;
+.merch-container {
+    margin: auto; /* Centers the container */
+    width: 90%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Adds spacing inside */
     text-align: center;
-    border: 1px solid #DDD;
-    font-family: 'Poppins', sans-serif;
 }
 
-/* Header Styling */
-.merch-table th {
-    background-color: #FFAFCC;
-    color: #5A3E36;
-    font-size: 18px;
+.merch-table {
+    margin: 0 auto; /* Centers the table */
+    border-collapse: collapse;
+    width: 100%;
 }
+
 footer {
     background-color: #AEC6CF;
     text-align: center;
