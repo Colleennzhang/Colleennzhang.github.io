@@ -75,7 +75,7 @@ main {
 }
 
 .merch-table {
-    margin: 0 auto; /* Centers the table */
+    margin: 0 auto; 
     border-collapse: collapse;
     width: 100%;
 }
