@@ -2,12 +2,12 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFFAE3; /* Pastel Yellow */
+    background-color: #FFFAE3; 
     color: #5A5A5A;
 }
 
 header {
-    background-color: #A7D8F0; /* Baby Blue */
+    background-color: #A7D8F0; 
     color: white;
     padding: 20px;
     text-align: center;
@@ -32,14 +32,14 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    background-color: #FFDDC1; /* Pastel Orange */
+    background-color: #FFDDC1;
     padding: 10px 15px;
     border-radius: 20px;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #FFB7B2; /* Soft Pink */
+    background-color: #FFB7B2;
     color: white;
 }
 
@@ -77,7 +77,7 @@ th, td {
 }
 
 th {
-    background-color: #FFAB76; /* Pastel Orange */
+    background-color: #FFAB76; 
     color: white;
 }
 
@@ -106,7 +106,7 @@ th {
 
 /* Footer Styling */
 footer {
-    background-color: #A7D8F0; /* Baby Blue */
+    background-color: #A7D8F0; 
     color: white;
     text-align: center;
     padding: 15px;
