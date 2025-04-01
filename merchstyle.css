@@ -1,13 +1,13 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #FFF8DC; /* Pastel Yellow */
+    background-color: #FFF8DC; 
     color: #5A5A5A;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #AEC6CF; /* Pastel Blue */
+    background-color: #AEC6CF; 
     padding: 20px;
     text-align: center;
     border-radius: 15px;
@@ -35,14 +35,14 @@ nav ul li a {
     text-decoration: none;
     color: #5A5A5A;
     font-weight: bold;
-    background-color: #FFDEE9; /* Soft pink */
+    background-color: #FFDEE9; 
     padding: 10px 15px;
     border-radius: 20px;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #FFC3A0; /* Warmer pastel */
+    background-color: #FFC3A0; 
     color: white;
 }
 
@@ -52,7 +52,7 @@ main {
 }
 
 .merch-container {
-    margin: auto; /* Centers the table */
+    margin: auto; 
     border-collapse: collapse;
     width: 90%;
     max-width: 800px;
@@ -63,14 +63,14 @@ main {
 }
 
 .merch-container {
-    margin: auto; /* Centers the container */
+    margin: auto; 
     width: 90%;
     max-width: 800px;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 20px; /* Adds spacing inside */
+    padding: 20px; 
     text-align: center;
 }
 
@@ -78,6 +78,22 @@ main {
     margin: 0 auto; /* Centers the table */
     border-collapse: collapse;
     width: 100%;
+}
+.merch-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #FFAFCC;
+    color: #5A3E36;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.merch-button:hover {
+    background-color: #FFC3A0;
+    color: white;
 }
 
 footer {
