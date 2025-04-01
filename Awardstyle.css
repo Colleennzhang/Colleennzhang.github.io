@@ -81,17 +81,13 @@ th {
     color: white;
 }
 
-/* Gallery Styling */
-.awards-gallery {
-    text-align: center;
-    padding: 20px;
-}
-
 .gallery {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
+    overflow-x: auto; /* Enables horizontal scrolling if needed */
+    white-space: nowrap; /* Prevents wrapping */
+    padding-bottom: 10px; /* Adds space below the images */
 }
 
 .gallery img {
@@ -100,12 +96,12 @@ th {
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
+    flex-shrink: 0; /* Ensures images do not shrink */
 }
 
 .gallery img:hover {
     transform: scale(1.1);
 }
-
 /* Footer Styling */
 footer {
     background-color: #FFAB76;
