@@ -85,19 +85,19 @@ th {
     display: flex;
     justify-content: center;
     gap: 15px;
-    overflow-x: auto; /* Enables horizontal scrolling if needed */
-    white-space: nowrap; /* Prevents wrapping */
-    padding-bottom: 10px; /* Adds space below the images */
+    overflow-x: auto;
+    white-space: nowrap; 
+    padding-bottom: 10px; 
 }
 
 .gallery img {
-    width: 200px;
-    height: auto;
+    max-width: 200px;
+    height: auto; 
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
-    flex-shrink: 0; /* Ensures images do not shrink */
-}
+    flex-shrink: 0; 
+    object-fit: contain; 
 
 .gallery img:hover {
     transform: scale(1.1);
