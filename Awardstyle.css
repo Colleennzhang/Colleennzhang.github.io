@@ -2,12 +2,12 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFD1DC; /* Baby Pink */
+    background-color: #FFFAE3; /* Pastel Yellow */
     color: #5A5A5A;
 }
 
 header {
-    background-color: #FFAB76; /* Pastel Orange */
+    background-color: #A7D8F0; /* Baby Blue */
     color: white;
     padding: 20px;
     text-align: center;
@@ -32,14 +32,14 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    background-color: #FFDAC1; /* Lighter pastel orange */
+    background-color: #FFDDC1; /* Pastel Orange */
     padding: 10px 15px;
     border-radius: 20px;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #FFB7B2; /* Soft pink */
+    background-color: #FFB7B2; /* Soft Pink */
     color: white;
 }
 
@@ -62,8 +62,8 @@ h2 {
 
 table {
     border-collapse: collapse;
-    width: 80%; /* Adjust width as needed */
-    max-width: 600px; /* Prevents it from becoming too wide */
+    width: 80%;
+    max-width: 600px;
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
@@ -77,7 +77,7 @@ th, td {
 }
 
 th {
-    background-color: #FFAB76;
+    background-color: #FFAB76; /* Pastel Orange */
     color: white;
 }
 
@@ -86,25 +86,27 @@ th {
     justify-content: center;
     gap: 15px;
     overflow-x: auto;
-    white-space: nowrap; 
-    padding-bottom: 10px; 
+    white-space: nowrap;
+    padding-bottom: 10px;
 }
 
 .gallery img {
     max-width: 200px;
-    height: auto; 
+    height: auto;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
-    flex-shrink: 0; 
-    object-fit: contain; 
+    flex-shrink: 0;
+    object-fit: contain;
+}
 
 .gallery img:hover {
     transform: scale(1.1);
 }
+
 /* Footer Styling */
 footer {
-    background-color: #FFAB76;
+    background-color: #A7D8F0; /* Baby Blue */
     color: white;
     text-align: center;
     padding: 15px;
